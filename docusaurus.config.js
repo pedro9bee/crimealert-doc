@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Crime Alert',
+  tagline: 'App to notify crime scenes',
+  url: 'http://crimealert',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/logo.svg',
+  organizationName: 'pedro9bee/crimealert', // Usually your GitHub org/user name.
+  projectName: 'crimealert', // Usually your repo name.
 
   presets: [
     [
@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Crime Alert',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -53,12 +53,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Logbook', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/pedro9bee/crimealert-doc',
+            label: 'Repo',
             position: 'right',
           },
         ],
@@ -70,38 +70,54 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Nestjs',
+                href: 'https://docs.nestjs.com/',
+              },
+              {
+                label: 'React Native',
+                href: 'https://reactnative.dev/',
+              },
+              {
+                label: 'AWS Lightsail',
+                href: 'https://aws.amazon.com/free/compute/lightsail',
+              },
+              {
+                label: 'Firebase',
+                href: 'https://firebase.google.com/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'References',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Cityzen',
+                href: 'https://apps.apple.com/us/app/citizen-connect-and-stay-safe/id1039889567',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Citycop',
+                href: 'https://apps.apple.com/br/app/citycop/id866291109',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Civi',
+                href: 'https://apps.apple.com/br/app/civi/id1511608672',
+              },
+              {
+                label: 'Alertnest',
+                href: 'https://apps.apple.com/br/app/alertnest/id1488899644',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Sites',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Github',
+                href: 'https://github.com/pedro9bee',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/pedro9bee/',
               },
             ],
           },
