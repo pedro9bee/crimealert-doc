@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 6
 ---
 
-# Criação do Mockup da Aplicação
+# Operação Assistida
 
 - Criação da Logo
 - Criação da Identidade Visual
