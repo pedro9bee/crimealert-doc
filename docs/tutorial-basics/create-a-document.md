@@ -2,54 +2,14 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# Telas dos Aplicativos
 
-Documents are **groups of pages** connected through:
-
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
-
-## Create your first Doc
-
-Create a markdown file at `docs/hello.md`:
-
-```md title="docs/hello.md"
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-A new document is now available at `http://localhost:3000/docs/hello`.
-
-## Configure the Sidebar
-
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
-
-Add metadatas to customize the sidebar label and position:
-
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
-
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```diff title="sidebars.js"
-module.exports = {
-  tutorialSidebar: [
-    {
-      type: 'category',
-      label: 'Tutorial',
--     items: [...],
-+     items: ['hello'],
-    },
-  ],
-};
-```
+- Tela de Login
+- Tela de Cadastro de Usuario
+- Tela de Esquecia a minha senha
+- Tela de Confirmação do SMS
+- Tela de Navegação pelas regiões com Loading das ocorrencias 
+- Tela de Listagem das Noticias
+- Tela de Criação de Comentário
+- Tela de Criação de Alertas
+- Tela de Escolha dos Icones dos Alertas
