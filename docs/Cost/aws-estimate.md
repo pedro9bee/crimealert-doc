@@ -1,0 +1,13 @@
+---
+sidebar_position: 1
+---
+
+# AWS Estimate
+
+| Group hierarchy | Region                    | Description   | Service                    | Upfront | Monthly | First 12 months total | Currency | Configuration summary                                                                                                                                                                                                                 |
+|-----------------|---------------------------|---------------|----------------------------|---------|---------|-----------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| My Estimate     | South America (Sao Paulo) | API - GATEWAY | Amazon API Gateway         | 0       | 3.18    | 38.16                 | USD      | HTTP API requests units (millions), Average size of each request (34 KB), REST API request units (millions), Cache memory size (GB) (None), WebSocket message units (thousands), Average message size (32 KB), Requests (2 per month) |
+| My Estimate     | South America (Sao Paulo) | S3 BUCKET     | S3 Standard                | 0       | 2.25    | 27.00                 | USD      | S3 Standard storage (3 GB per month)                                                                                                                                                                                                  |
+| My Estimate     | South America (Sao Paulo) | S3 BUCKET     | Data Transfer              | 0       | 0       | 0.00                  | USD      | DT Inbound: All other regions (1 TB per month), DT Outbound: Amazon CloudFront (1 TB per month)                                                                                                                                       |
+| My Estimate     | South America (Sao Paulo) | Cloud Front   | Amazon CloudFront          | 0       | 0       | 0.00                  | USD      |                                                                                                                                                                                                                                       |
+| My Estimate     | South America (Sao Paulo) | EC2           | Amazon EC2 Dedicated Hosts | 161.184 | 11.4    | 297.98                | USD      | Storage amount (30 GB), Number of dedicated hosts (2), Host type (t3.micro), Pricing strategy (Compute Savings 1 year All Upfront)                                                                                                    |
